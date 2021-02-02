@@ -8,8 +8,28 @@
 <body>
   <h1>My project 4567</h1>
   <ul>
-    <li>git add + git commit == git commit -am</li>
+    <li>git status - check if there is a repository in this folder</li>
+    <li>git init -настроит систему котроля версий на работу с данной папкой
+      <li>ls -a - команда покажет все файлы находящиеся в этой директории</li>
+    </li>
+    <li>
+      git add . - данная команда даст возможность подготовить к сохранению все файлы "." находящиеся в текущей директории
+      git add index.html - команда подготавливает файл index.html к сохранению
+      <li>git reset index.html - команда даст возможность не сохранять изменения в файле index.html, на случай, если я передумал</li>
+    </li>
+    <li>git commit -m 'This write changed was been' - эта команда выполняет сохранение</li>
+    <li>git add index.html + git commit -m == git commit -am</li>
     <li>git push origin develop</li>
+
+    <h2>Other commands git</h2>
+    <li>git log - команда позволяющая посмотреть историю всех сохранений</li>
+    <li>git checkout ab72d91799d74e4212ac35afcf380f5ca68b1804 - переход по номеру сохранённого коммита - возврат к определённому сохранённому коммиту</li>
+    <li>git checkout master - переход к ветке master - возврат к определённому сохранённому коммиту</li>
+    <li>git branch develop - создаём новую ветку с названием 'develop'</li>
+    <li>git checkout develop</li>
+    <li>git branch develop + git checkout develop == git checkout -b new-branch-name</li>
+    <li>git branch - список всех доступных веток</li>
+    <li>git branch -D new-branch-name - удалит ветку с именем new-branch-name, только необходимо перед этим перейти с неё на другую ветку</li>
   </ul>
 </body>
 </html>
