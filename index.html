@@ -6,6 +6,24 @@
   <title>My project</title>
 </head>
 <body>
+  <h1>Create a new repository</h1>
+  <ol>
+    <li>Repositories -> 
+      New -> 
+      'make name our Repository' + Initialize this Repository with a README ->
+      push the button 'Create Repository'
+    </li>
+    <li>
+      Our need link for this Repository
+      <li>push 'Clone or download' and copy this link</li>
+    </li>
+    <li>Переходим на PC в нашу папку с проектами и открываем там GitBash Here ->
+      вписываю команду <strong>code</strong>, что откроет мне VSCode в данной папке ->
+      в терминале VSCode выполняем команду <strong>git clone 'наш линк с GitHub'</strong> ->
+      открываем в VSCode нашу новозагрузившуюся папку 'my-project-name'
+    </li>
+    <li></li>
+  </ol>
   <h1>My project 4567</h1>
   <ul>
     <li>git status - check if there is a repository in this folder</li>
@@ -31,6 +49,11 @@
     <li>git branch develop + git checkout develop == git checkout -b new-branch-name</li>
     <li>git branch - список всех доступных веток</li>
     <li>git branch -D new-branch-name - удалит ветку с именем new-branch-name, только необходимо перед этим перейти с неё на другую ветку</li>
+    <li>git remote - команда покажет с каким сервером на GitHub связан проект</li>
+    <li>git remote show origin - команда покажет какой именно сервер прячется за словом origin</li>
+    <li>git remote remove origin - команда удалит сервер на GitHub связан проект</li>
+    <li>git remote add origin 'та самая ссылка с GitHub'- команда добавит сервер на GitHub связан проект</li>
+    <li>git pull origin develop - скачает все произошедшие изменения с GitHub</li>
   </ul>
 </body>
 </html>
